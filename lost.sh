@@ -9,9 +9,9 @@ CHAT_ID=
 cd $dir
 for i in $(seq 1 10); do
 rss=$(curl http://insearch.site/rssdd.xml)
-[[ "`echo "$rss" | wc -l`" -gt 50 ]] && break || sleep 60
+[[ `echo "$rss" | wc -l` -gt 50 ]] && break || sleep 60
 done;
-[[ "`echo "$rss" | wc -l`" -le 50 ]] && exit
+[[ `echo "$rss" | wc -l` -le 50 ]] && exit
 while read line; do
 num=$(echo "$rss" | grep -n ".*$line.*" | grep "1080" | awk -F: '{print$1}')
 count=$(echo "$rss" | grep ".*$line.*" | grep "1080" | sed -e "s/<title>//" -e "s/<\/title>//" | tr -d '[:space:]')
