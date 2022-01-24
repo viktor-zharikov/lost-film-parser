@@ -7,9 +7,9 @@ ___________________________________________________________
 * dont use -k(insecure) flag in curl
 
 
-GOLANG version:
-use link to file with cinema list, google disk for example
-use only FULL ENGLISH names cinema, examples:
-The Tourist
-Servant
-The Blacklist
+GOLANG version:\n
+use link to file with cinema list, google disk for example\n
+use only FULL ENGLISH names cinema, examples:\n
+The Tourist\n
+Servant\n
+The Blacklist\n
