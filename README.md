@@ -5,3 +5,11 @@ if y use it script in another linux system, please read manual for curl and edit
 
 ___________________________________________________________
 * dont use -k(insecure) flag in curl
+
+
+GOLANG version:
+use link to file with cinema list, google disk for example
+use only FULL ENGLISH names cinema, examples:
+The Tourist
+Servant
+The Blacklist
